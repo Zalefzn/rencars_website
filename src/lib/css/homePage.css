@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    font-size: 25px;
+}
+ul{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.logo-text{
+    position: absolute;
+    margin-left: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: blue;
+    text-shadow: 5px 6px 9px #d0d0d0;
+}
+
+li{
+    text-decoration: none;
+    display: flex;
+    margin-left: 70px;
+    float: right;
+}
+
+.i{
+    margin-top: 10px;
+}
+
+.btn-logout{
+    padding: 10px 40px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: blue;
+    border-radius: 30px;
+    border-style: none;
+    box-shadow: 5px 6px 12px #d0d0d0;
+}
+
+.btn-logout:hover{
+    background-color: gainsboro;
+    color: black;
+    box-shadow: 5px 6px 12px #d0d0d0;
+}
+
+.login-link{
+    color: white;
+}
+
+.content-page-container{
+   position: absolute;
+   margin-top: 20%;
+}
+
+.image-content{
+    position: absolute;
+    margin-left: 160%;
+    margin-top: -50%;
+    animation-name: animasi1;
+    animation-duration: 3s;
+}
+
+.img-car{
+    height: 400px;
+    width: auto;
+}
+
+.text-content{
+    margin-left: 8%;
+    font-size: 35px;
+    font-weight: bold;
+    animation-name: animasi2;
+    animation-duration: 4s;
+}
+
+.text-content-vol2{
+    margin-left: 8%;
+    margin-top: 5%;
+    font-size: 25px;
+    color: grey;
+    animation-name: animasi2;
+    animation-duration: 5s;
+}
+
+.btn-buy{
+    margin-left: 8%;
+    padding: 10px 60px;
+    color: white;
+    border-style: none;
+    font-size: 22px;
+    background-color: blue;
+    border-radius: 30px;
+    margin-top: 5%;
+    animation-name: animasi2;
+    animation-duration: 6s;
+    box-shadow: 5px 6px 12px #898989;
+}
+
+.btn-buy:hover{
+    margin-left: 8%;
+    padding: 10px 60px;
+    color: rgb(0, 0, 0);
+    border-style: none;
+    font-size: 22px;
+    background-color: rgb(200, 200, 200);
+    border-radius: 30px;
+    margin-top: 5%;
+    animation-name: animasi2;
+    animation-duration: 6s;
+    box-shadow: 5px 6px 12px #898989;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: blue;
+}
+
+@keyframes animasi1 {
+    0%{
+        margin-left: 160%;
+        opacity: 0;
+    }
+    25%{
+        margin-left: 165%;
+        opacity: 0.9;
+    }
+}
+
+@keyframes animasi2 {
+    0%{
+        margin-left: 8%;
+        opacity: 0;
+    }
+    25%{
+        margin-left: 10%;
+        opacity: 0.9;
+    }
+}
