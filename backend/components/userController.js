@@ -66,7 +66,7 @@ export const Login = async(req,res)=> {
             name,
             email,
         }, process.env.REFRESH_TOKEN_SECRET, {
-            expiresIn: 'Id'
+            expiresIn: '1d'
         });
         await User.update({
             refresh_token: refreshToken,
@@ -78,7 +78,7 @@ export const Login = async(req,res)=> {
         res.cookie(
             'refreshToken', refreshToken,{
                 httpOnly: true,
-                maxAge: 24 * 60 * 80 * 100
+                maxAge: 24 * 60 * 60 * 1000
         });
         res.json({accessToken});
     }catch(err){

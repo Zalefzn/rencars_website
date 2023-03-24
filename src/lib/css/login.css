@@ -24,3 +24,37 @@
     background-color: rgb(255, 255, 255);
     box-shadow: 5px 5px 10px rgb(183, 183, 183);
 }
+
+.content-fill-card{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 40%;
+}
+
+.label-username {
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.label-password {
+    margin-top: 10px;
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input-username{
+    margin-top: 10px;
+    padding: 18px;
+    width: 350px;
+    border-radius: 30px;
+    border-color: blue;
+}
+
+.input-password{
+    margin-top: 10px;
+    padding: 18px;
+    width: 350px;
+    border-radius: 30px;
+    border-color: blue;
+}
+
