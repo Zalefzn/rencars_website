@@ -5,12 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Register</title>
+    <link rel="stylesheet" href="/src/lib/css/register.css">
 </head>
     <body>
         <div class="register-container-content">
             <div class="content-register">
-                
+                <div class="image-car">
+                    <img class="image-car-content" src="/public/carimg.png" alt="" />
+                </div>
+                <div class="container-card">
+                    <div class="fill-content-register">
+                        <p class="username-register">
+                            Username
+                        </p>
+                        <input id="username-regis" class="input-user-regis" type="text" placeholder="username here...">
+                        <p class="email-register">
+                            Email
+                        </p>
+                        <input id="email-regis" class="input-email-regis" type="email" placeholder="username@gmail.com">
+                        <p class="password-register">
+                            Password
+                        </p>
+                        <input id="password-regis" class="input-pass-regis" type="password" placeholder="**********">
+                        <br>
+                        <button type="button" class="button-register" onClick="getRegister()">Sign Up</button>
+                        <p class="link-login-page">
+                            Do you have account? <a class="link-login-route" href="/src/components/formLogin/formLogin.html">Login</a>
+                        </p>
+
+                    </div>
+                </div>
             </div>
         </div>
+        <script src="/src/lib/js/register.js"></script>
     </body>
 </html>
