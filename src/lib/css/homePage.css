@@ -149,3 +149,49 @@ a:hover{
         opacity: 0.9;
     }
 }
+
+
+/*Services Page Content*/
+
+.card-content-servis{
+    margin-top: 49%;
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    border-radius: 30px;
+    margin-left: 10%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 6px 12px #898989;
+}
+
+.icon-image{
+    margin-left: 45%;
+    margin-top: 15%;
+    align-items: center;
+}
+
+.desc-roda{
+    margin-top: 3%;
+    text-align: center;
+}
+
+.text-desc{
+    position: absolute;
+    margin-top: 49%;
+    margin-left: 60%;
+    font-size: 30px;
+}
+
+.button-service{
+    margin-left: 60%;
+    padding: 10px 60px;
+    color: white;
+    border-style: none;
+    font-size: 22px;
+    background-color: blue;
+    border-radius: 30px;
+    margin-top: 58%;
+    box-shadow: 5px 6px 12px #898989;
+}
+
+
