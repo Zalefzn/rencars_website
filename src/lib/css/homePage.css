@@ -7,7 +7,6 @@
 
 nav{
     font-size: 25px;
-    background-color: blue;
 }
 ul{
     margin-top: 50px;
@@ -52,9 +51,6 @@ li{
     box-shadow: 5px 6px 12px #d0d0d0;
 }
 
-.login-link{
-    color: white;
-}
 
 .content-page-container{
    position: absolute;
@@ -128,6 +124,50 @@ a:hover{
     color: blue;
 }
 
+/*Services Page Content*/
+.card-content-service{
+    margin-top: 49%;
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    border-radius: 30px;
+    margin-left: 10%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 6px 12px #898989;
+}
+
+.icon-image-service{
+    margin-left: 45%;
+    margin-top: 15%;
+    align-items: center;
+}
+
+.desc-roda-service{
+    margin-top: 3%;
+    text-align: center;
+}
+
+.text-desc-service{
+    position: absolute;
+    margin-top: 49%;
+    margin-left: 60%;
+    font-size: 30px;
+}
+
+.click-me{
+    position: absolute;
+    margin-top: 58%;
+    margin-left: 60%;
+    color: white;
+    background-color: blue;
+    font-size: 22px;
+    border-radius: 30px;
+    border-style: none;
+    padding: 10px 60px;
+    box-shadow: 5px 6px 12px #898989;
+}
+
+
 @keyframes animasi1 {
     0%{
         margin-left: 160%;
@@ -151,47 +191,6 @@ a:hover{
 }
 
 
-/*Services Page Content*/
 
-.card-content-servis{
-    margin-top: 49%;
-    position: absolute;
-    height: 300px;
-    width: 500px;
-    border-radius: 30px;
-    margin-left: 10%;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 5px 6px 12px #898989;
-}
-
-.icon-image{
-    margin-left: 45%;
-    margin-top: 15%;
-    align-items: center;
-}
-
-.desc-roda{
-    margin-top: 3%;
-    text-align: center;
-}
-
-.text-desc{
-    position: absolute;
-    margin-top: 49%;
-    margin-left: 60%;
-    font-size: 30px;
-}
-
-.button-service{
-    margin-left: 60%;
-    padding: 10px 60px;
-    color: white;
-    border-style: none;
-    font-size: 22px;
-    background-color: blue;
-    border-radius: 30px;
-    margin-top: 58%;
-    box-shadow: 5px 6px 12px #898989;
-}
 
 

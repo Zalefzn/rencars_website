@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/lib/css/homePage.css">
     <title>Home Page</title>
-</head>
 <body>
-    <div class="home-page-container" id="home">
+    <div class="home-page-container">
         <!--Navbar Container-->
         <div class="navbar-home-page">
             <nav>
@@ -29,7 +28,7 @@
         </div>
         
         <!--Container-home-page-->
-        <div class="content-page-container">
+        <div class="content-page-container"id="home">
             <div class="text-content">
                <p>
                 We provide quality cars at guaranteed<br>prices
@@ -49,29 +48,34 @@
                 <img class="img-car" src="/public/carImg.png" alt="">
             </div>
         </div>
-    </div>
-
-     <!--Container-Services-page-->
-    <div class="content-services-page" id="services">
-        <div class="card-content-servis">
-            <div class="image-servis-icon-part1">
-                <img class="icon-image" src="/public/icon_roda.png" alt="">
+        
+        <!--Container-Services-page-->
+        <div class="content-services-page">
+            <div class="card-content-service" id="services">     
+                <img class="icon-image-service" src="/public/icon_roda.png" alt="">
+                <div class="desc-roda-service">
+                    <p class="text-roda-service">
+                        Quality and safe<br>
+                        car wheels
+                    </p>
+                </div>
             </div>
-            <div class="desc-roda">
-                <p class="text-roda-icon">
-                    Quality and safe<br>
-                    car wheels
+            <div class="services-page-content">
+                <p class="text-desc-service">
+                    We will provide the best service<br>
+                    to make you comfortable and at ease<br>
+                    with us, with this service it will provide<br> 
+                    quality to your car
                 </p>
+                <button class="click-me" type="button" name="button">Service Now</button>
             </div>
         </div>
-        <div class="services-page">
-            <p class="text-desc">
-                We will provide the best service<br>
-                to make you comfortable and at ease<br>
-                with us, with this service it will provide<br> 
-                quality to your car
-            </p>
-            <button class="button-service" type="button" name="button">Service Now</button>
+        
+        <!--Container About Content-->
+        <div class="container-content-about">
+            <div class="content-about">
+
+            </div>
         </div>
     </div>
     <script src="/src/lib/js/homePage.js"></script>

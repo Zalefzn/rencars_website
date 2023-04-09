@@ -5,7 +5,17 @@ function handleLogout(){
     }, 3000);  
 }
 
-function handlePage(){
-    
-}
+const imageData = {
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: ""
+} 
 
+function handleImage(){
+    if(imageData !== null){
+        setTimeout(() => {
+            
+        });
+    }
+}
