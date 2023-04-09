@@ -152,6 +152,9 @@ a:hover{
     margin-top: 49%;
     margin-left: 60%;
     font-size: 30px;
+    animation-name: animasi3;
+    animation-duration: 3s;
+    animation-delay: 1s;
 }
 
 .click-me{
@@ -165,6 +168,32 @@ a:hover{
     border-style: none;
     padding: 10px 60px;
     box-shadow: 5px 6px 12px #898989;
+    animation-name: animasi3;
+    animation-duration: 4s;
+    animation-delay: 1s;
+
+}
+
+
+/*About Page Content*/
+.img-car2{
+    position: absolute;
+    margin-top: 80%;
+    margin-left: 38%;
+    animation-name: animasi4;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+.about-desc{
+    position: absolute;
+    margin-top: 105%;
+    margin-left: 33%;
+    text-align: center;
+    font-size: 30px;
+    animation-name: animasi5;
+    animation-duration: 2s;
+    animation-delay: 2s;
 }
 
 
@@ -186,6 +215,39 @@ a:hover{
     }
     25%{
         margin-left: 10%;
+        opacity: 0.9;
+    }
+}
+
+@keyframes animasi3 {
+    0%{
+        margin-left: 60%;
+        opacity: 0;
+    }
+    25%{
+        margin-left: 62%;
+        opacity: 0.9;
+    }
+}
+
+@keyframes animasi4 {
+    0%{
+        margin-top: 80%;
+        opacity: 0;
+    }
+    25%{
+        margin-top: 82%;
+        opacity: 0.9;
+    }
+}
+
+@keyframes animasi5 {
+    0%{
+        margin-top: 105%;
+        opacity: 0;
+    }
+    25%{
+        margin-top: 107%;
         opacity: 0.9;
     }
 }

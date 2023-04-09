@@ -13,9 +13,13 @@ const imageData = {
 } 
 
 function handleImage(){
-    if(imageData !== null){
-        setTimeout(() => {
-            
-        });
+    if(imageData === null){
+        
+    }else {
+        if(imageData !== null){
+            setTimeout(() => {
+                
+            });
+        }
     }
 }
